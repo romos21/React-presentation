@@ -1,0 +1,33 @@
+.post {
+    width: 60vw;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #61dafb;
+    color: #61dafb;
+    border-radius: 15px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.likes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likes-container .like-btn {
+    background-color: #61dafb;
+    border: none;
+    color: #282c34;
+    border-radius: 3px;
+    padding: 1rem 2.5rem;
+    transition: .5s;
+}
+
+.likes-container .like-btn:hover {
+    transition: .5s;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,48 @@
+.soliders-sec {
+    color: #61dafb;
+}
+
+
+.component-img{
+    height: 150px;
+    border-radius: 15px;
+}
+
+.redux-flow-step-wrapper {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    row-gap: 10px;
+}
+
+.redux-flow-step {
+    background-color: #61dafb;
+    color: #282c34;
+    padding: 30px;
+    width: 100%;
+}
+
+.action-types-list {
+    background-color: #282c34;
+    color: #61dafb;
+    padding: 20px;
+}
+
+.action-types-list li {
+    padding: 5px 2px;
+}
+
+.action-types-list .active {
+    color: #19ed19;
+}
+
+.arrow-img {
+    max-height: 50px;
+}
+
+.result-action-img {
+    width: 100%;
+}
